@@ -598,7 +598,11 @@ ul li {
   font-weight: 300;
   text-align: center;
 }
-.bannerSubHeading h2 { font-weight: 300;}
+
+.bannerSubHeading h2 {
+  font-weight: 300;
+}
+
 .bannerImage img {
   opacity: 0;
   visibility: hidden;
@@ -649,9 +653,32 @@ p {
   z-index: 99;
   padding: 0 10px;
 }
-main section:nth-child(odd), main section:nth-child(odd) .sectionHeading span {background-color:#f3f5fa;}
 
-footer {width: 100%; display: inline-block; text-align: center; position: fixed; bottom: 0; left: 0; background:#EAEAEA; padding: 15px 0; font-size: 14px; z-index: 999;}
-.myName {font-weight: 600; color: #da251c;}
-nav.navbar.bootsnav ul.nav>li:hover a {background: #0a305f; color: #fff;}
-/* .nav>li:hover a {color: #fff;} */
+main section:nth-child(odd),
+main section:nth-child(odd) .sectionHeading span {
+  background-color: #f3f5fa;
+}
+
+footer {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #EAEAEA;
+  padding: 15px 0;
+  font-size: 14px;
+  z-index: 999;
+}
+
+.myName {
+  font-weight: 600;
+  color: #da251c;
+}
+
+nav.navbar.bootsnav ul.nav>li:hover a {
+  background: #0a305f;
+  color: #fff;
+}
+
